@@ -10,7 +10,7 @@ public class Arreglo {
 		n = new int[10];
 		indice = 0;
 	}
-	//  Operaciones públicas básicas
+	//  Operaciones pÃºblicas bÃ¡sicas
 	public int tamanio() {
 		return indice;
 	}
@@ -25,7 +25,7 @@ public class Arreglo {
 	}
 	
 	public void adicionarDistintoYordenar(int numero) { 
-		for (int i=0;i<indice;i++) {
+            for (int i=0;i<indice;i++) {
 	        if (numero == n[i]) {
 	            return; 
 	        }
